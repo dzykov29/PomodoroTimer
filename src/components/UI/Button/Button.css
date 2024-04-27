@@ -1,0 +1,100 @@
+.btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    padding: 15px 50px;
+    margin: 0;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17px ;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn__start {
+    background-color: #A8B64F; 
+    color: white;
+}
+
+.btn__start:active {
+    background-color: #899441;
+}
+.btn__start:disabled {
+    cursor: no-drop;
+    background-color: #C4C4C4;
+}
+
+.btn__add-time {
+    padding: 10px;
+}
+
+.btn__add-time:active svg circle {
+    fill: #899441;
+}
+
+.btn__add-time:disabled svg circle {
+    cursor: no-drop;
+    fill: #C4C4C4;
+}
+
+.btn__stop {
+    border: 2px solid #DC3E22;
+    color: #DC3E22;
+}
+
+.btn__stop:active {
+    background-color: #DC3E22;
+    color: white;
+}
+
+.btn__stop:disabled {
+    color: #C4C4C4;
+    border-color: #C4C4C4;
+    cursor:no-drop
+}
+
+.btn__complete {
+    border: 2px solid #DC3E22;
+    background-color: #DC3E22;
+    color: #FFFFFF;
+}
+
+.btn__add-task {
+    background-color: #A8B64F;
+    color: #FFFFFF;
+}
+
+.btn__add-task:active {
+    background-color: #899441;
+}
+
+.btn__remove {
+    background-color: #DC3E22;
+    color: #FFFFFF;
+}
+
+.btn__cancel_light {
+    color: #333333;
+    text-decoration: underline;
+    background: none;
+    border: none;
+}
+
+.btn__cancel_dark {
+    color: #F4F4F4;
+    text-decoration: underline;
+    background: none;
+    border: none;
+}
+
+.btn__exit_light {
+    color: #333333;
+    text-decoration: underline;
+    background: #F4F4F4;
+}
+
+.btn__exit_dark {
+    color: #F4F4F4;
+    background: #999999;
+}

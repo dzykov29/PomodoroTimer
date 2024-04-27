@@ -1,0 +1,39 @@
+.instruction__title_light {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+}
+
+.instruction__title_dark {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #ffffff;
+}
+
+.instruction__list {
+    padding: 0;
+    text-align: left;
+    padding-left: 15px;
+}
+.instruction__list li::marker {
+    color: #B7280F;
+}
+.instruction__item_light {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    color: #333333;
+}
+
+.instruction__item_dark {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    color: #ffffff;
+}

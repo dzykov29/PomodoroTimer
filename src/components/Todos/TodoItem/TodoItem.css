@@ -1,0 +1,43 @@
+/* todoItem.module.css */
+.tomato__count {
+    border: 1px solid #C4C4C4;
+    border-radius: 50%;
+    width: 25px;
+    min-height: 15px;
+    text-align: center;
+}
+.item__text {
+    margin-right: auto;
+}
+
+.item {
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.item:last-child {
+    margin-bottom: 10px;
+}
+
+.item-enter {
+  opacity: 0;
+}
+
+.item-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.item-exit {
+  opacity: 1;
+}
+
+.item-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}

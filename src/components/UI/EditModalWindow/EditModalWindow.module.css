@@ -1,0 +1,59 @@
+.modal_light {
+    position: absolute;
+    right: -45px;
+    top: 35px;
+    border: 1px solid #C4C4C4;
+    background-color: #fff;
+    z-index: 10;
+}
+
+.modal_dark {
+    position: absolute;
+    right: -45px;
+    top: 35px;
+    border: 1px solid #C4C4C4;
+    background-color: #333;
+    z-index: 10;
+}
+
+.list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item_light {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    color: #999999;
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.item_dark {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.item_light:hover {
+    outline: 1px solid #999999;
+}
+
+.item_dark:hover {
+    outline: 1px solid #fff;
+}
